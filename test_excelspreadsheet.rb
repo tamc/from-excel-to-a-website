@@ -144,16 +144,16 @@ class TestExcelspreadsheet < Minitest::Unit::TestCase
   def test_sheet1_d20; assert_in_epsilon(150262960.1803155, worksheet.sheet1_d20, 0.002); end
   def test_sheet1_e20; assert_in_epsilon(136602691.0730141, worksheet.sheet1_e20, 0.002); end
   def test_sheet1_f20; assert_in_epsilon(124184264.611831, worksheet.sheet1_f20, 0.002); end
-  def test_sheet1_g20; assert_in_epsilon(98963569.41702822, worksheet.sheet1_g20, 0.002); end
-  def test_sheet1_h20; assert_in_epsilon(89966881.28820746, worksheet.sheet1_h20, 0.002); end
-  def test_sheet1_i20; assert_in_epsilon(81788073.89837041, worksheet.sheet1_i20, 0.002); end
-  def test_sheet1_j20; assert_in_epsilon(74352794.45306401, worksheet.sheet1_j20, 0.002); end
-  def test_sheet1_k20; assert_in_epsilon(67593449.50278546, worksheet.sheet1_k20, 0.002); end
-  def test_sheet1_l20; assert_in_epsilon(61448590.45707768, worksheet.sheet1_l20, 0.002); end
-  def test_sheet1_m20; assert_in_epsilon(55862354.96097971, worksheet.sheet1_m20, 0.002); end
-  def test_sheet1_n20; assert_in_epsilon(50783959.0554361, worksheet.sheet1_n20, 0.002); end
-  def test_sheet1_o20; assert_in_epsilon(46167235.5049419, worksheet.sheet1_o20, 0.002); end
-  def test_sheet1_p20; assert_in_epsilon(41970214.09540173, worksheet.sheet1_p20, 0.002); end
+  def test_sheet1_g20; assert_in_epsilon(254374531.83943415, worksheet.sheet1_g20, 0.002); end
+  def test_sheet1_h20; assert_in_epsilon(231249574.39948556, worksheet.sheet1_h20, 0.002); end
+  def test_sheet1_i20; assert_in_epsilon(210226885.81771415, worksheet.sheet1_i20, 0.002); end
+  def test_sheet1_j20; assert_in_epsilon(191115350.7433765, worksheet.sheet1_j20, 0.002); end
+  def test_sheet1_k20; assert_in_epsilon(173741227.94852406, worksheet.sheet1_k20, 0.002); end
+  def test_sheet1_l20; assert_in_epsilon(157946570.86229458, worksheet.sheet1_l20, 0.002); end
+  def test_sheet1_m20; assert_in_epsilon(143587791.69299507, worksheet.sheet1_m20, 0.002); end
+  def test_sheet1_n20; assert_in_epsilon(130534356.08454098, worksheet.sheet1_n20, 0.002); end
+  def test_sheet1_o20; assert_in_epsilon(118667596.44049178, worksheet.sheet1_o20, 0.002); end
+  def test_sheet1_p20; assert_in_epsilon(107879633.12771979, worksheet.sheet1_p20, 0.002); end
   def test_sheet1_q20; assert_in_delta(0.0, (worksheet.sheet1_q20||0), 0.002); end
   def test_sheet1_r20; assert_in_delta(0.0, (worksheet.sheet1_r20||0), 0.002); end
   def test_sheet1_s20; assert_in_delta(0.0, (worksheet.sheet1_s20||0), 0.002); end
@@ -209,16 +209,16 @@ class TestExcelspreadsheet < Minitest::Unit::TestCase
   def test_sheet1_d21; assert_in_delta(0.0, (worksheet.sheet1_d21||0), 0.002); end
   def test_sheet1_e21; assert_in_delta(0.0, (worksheet.sheet1_e21||0), 0.002); end
   def test_sheet1_f21; assert_in_delta(0.0, (worksheet.sheet1_f21||0), 0.002); end
-  def test_sheet1_g21; assert_in_epsilon(2474089.2354257056, worksheet.sheet1_g21, 0.002); end
-  def test_sheet1_h21; assert_in_epsilon(2249172.0322051863, worksheet.sheet1_h21, 0.002); end
-  def test_sheet1_i21; assert_in_epsilon(2044701.8474592604, worksheet.sheet1_i21, 0.002); end
-  def test_sheet1_j21; assert_in_epsilon(1858819.8613266002, worksheet.sheet1_j21, 0.002); end
-  def test_sheet1_k21; assert_in_epsilon(1689836.2375696364, worksheet.sheet1_k21, 0.002); end
-  def test_sheet1_l21; assert_in_epsilon(1536214.761426942, worksheet.sheet1_l21, 0.002); end
-  def test_sheet1_m21; assert_in_epsilon(1396558.8740244927, worksheet.sheet1_m21, 0.002); end
-  def test_sheet1_n21; assert_in_epsilon(1269598.9763859024, worksheet.sheet1_n21, 0.002); end
-  def test_sheet1_o21; assert_in_epsilon(1154180.8876235476, worksheet.sheet1_o21, 0.002); end
-  def test_sheet1_p21; assert_in_epsilon(1049255.3523850432, worksheet.sheet1_p21, 0.002); end
+  def test_sheet1_g21; assert_in_epsilon(4948178.470851411, worksheet.sheet1_g21, 0.002); end
+  def test_sheet1_h21; assert_in_epsilon(4498344.064410373, worksheet.sheet1_h21, 0.002); end
+  def test_sheet1_i21; assert_in_epsilon(4089403.6949185207, worksheet.sheet1_i21, 0.002); end
+  def test_sheet1_j21; assert_in_epsilon(3717639.7226532004, worksheet.sheet1_j21, 0.002); end
+  def test_sheet1_k21; assert_in_epsilon(3379672.475139273, worksheet.sheet1_k21, 0.002); end
+  def test_sheet1_l21; assert_in_epsilon(3072429.522853884, worksheet.sheet1_l21, 0.002); end
+  def test_sheet1_m21; assert_in_epsilon(2793117.7480489854, worksheet.sheet1_m21, 0.002); end
+  def test_sheet1_n21; assert_in_epsilon(2539197.9527718048, worksheet.sheet1_n21, 0.002); end
+  def test_sheet1_o21; assert_in_epsilon(2308361.775247095, worksheet.sheet1_o21, 0.002); end
+  def test_sheet1_p21; assert_in_epsilon(2098510.7047700863, worksheet.sheet1_p21, 0.002); end
   def test_sheet1_q21; assert_in_delta(0.0, (worksheet.sheet1_q21||0), 0.002); end
   def test_sheet1_r21; assert_in_delta(0.0, (worksheet.sheet1_r21||0), 0.002); end
   def test_sheet1_s21; assert_in_delta(0.0, (worksheet.sheet1_s21||0), 0.002); end
@@ -275,16 +275,16 @@ class TestExcelspreadsheet < Minitest::Unit::TestCase
   def test_sheet1_d17; assert_in_delta(0.0, (worksheet.sheet1_d17||0), 0.002); end
   def test_sheet1_e17; assert_in_delta(0.0, (worksheet.sheet1_e17||0), 0.002); end
   def test_sheet1_f17; assert_in_delta(0.0, (worksheet.sheet1_f17||0), 0.002); end
-  def test_sheet1_g17; assert_in_epsilon(175320000.0, worksheet.sheet1_g17, 0.002); end
-  def test_sheet1_h17; assert_in_epsilon(175320000.0, worksheet.sheet1_h17, 0.002); end
-  def test_sheet1_i17; assert_in_epsilon(175320000.0, worksheet.sheet1_i17, 0.002); end
-  def test_sheet1_j17; assert_in_epsilon(175320000.0, worksheet.sheet1_j17, 0.002); end
-  def test_sheet1_k17; assert_in_epsilon(175320000.0, worksheet.sheet1_k17, 0.002); end
-  def test_sheet1_l17; assert_in_epsilon(175320000.0, worksheet.sheet1_l17, 0.002); end
-  def test_sheet1_m17; assert_in_epsilon(175320000.0, worksheet.sheet1_m17, 0.002); end
-  def test_sheet1_n17; assert_in_epsilon(175320000.0, worksheet.sheet1_n17, 0.002); end
-  def test_sheet1_o17; assert_in_epsilon(175320000.0, worksheet.sheet1_o17, 0.002); end
-  def test_sheet1_p17; assert_in_epsilon(175320000.0, worksheet.sheet1_p17, 0.002); end
+  def test_sheet1_g17; assert_in_epsilon(350640000.0, worksheet.sheet1_g17, 0.002); end
+  def test_sheet1_h17; assert_in_epsilon(350640000.0, worksheet.sheet1_h17, 0.002); end
+  def test_sheet1_i17; assert_in_epsilon(350640000.0, worksheet.sheet1_i17, 0.002); end
+  def test_sheet1_j17; assert_in_epsilon(350640000.0, worksheet.sheet1_j17, 0.002); end
+  def test_sheet1_k17; assert_in_epsilon(350640000.0, worksheet.sheet1_k17, 0.002); end
+  def test_sheet1_l17; assert_in_epsilon(350640000.0, worksheet.sheet1_l17, 0.002); end
+  def test_sheet1_m17; assert_in_epsilon(350640000.0, worksheet.sheet1_m17, 0.002); end
+  def test_sheet1_n17; assert_in_epsilon(350640000.0, worksheet.sheet1_n17, 0.002); end
+  def test_sheet1_o17; assert_in_epsilon(350640000.0, worksheet.sheet1_o17, 0.002); end
+  def test_sheet1_p17; assert_in_epsilon(350640000.0, worksheet.sheet1_p17, 0.002); end
   def test_sheet1_q17; assert_in_delta(0.0, (worksheet.sheet1_q17||0), 0.002); end
   def test_sheet1_r17; assert_in_delta(0.0, (worksheet.sheet1_r17||0), 0.002); end
   def test_sheet1_s17; assert_in_delta(0.0, (worksheet.sheet1_s17||0), 0.002); end
@@ -336,25 +336,25 @@ class TestExcelspreadsheet < Minitest::Unit::TestCase
   def test_sheet1_bm17; assert_in_delta(0.0, (worksheet.sheet1_bm17||0), 0.002); end
   def test_sheet1_bn17; assert_in_delta(0.0, (worksheet.sheet1_bn17||0), 0.002); end
   def test_sheet1_b3; assert_in_epsilon(20.0, worksheet.sheet1_b3, 0.002); end
-  def test_sheet1_b26; assert_in_epsilon(85.33775543222552, worksheet.sheet1_b26, 0.002); end
-  def test_sheet1_b7; assert_in_delta(0.5, worksheet.sheet1_b7, 0.002); end
-  def test_sheet1_b2; assert_in_epsilon(1000.0, worksheet.sheet1_b2, 0.002); end
+  def test_sheet1_b26; assert_in_epsilon(74.07658932916317, worksheet.sheet1_b26, 0.002); end
+  def test_sheet1_b7; assert_in_delta(1.0, worksheet.sheet1_b7, 0.002); end
+  def test_sheet1_b2; assert_in_epsilon(100.0, worksheet.sheet1_b2, 0.002); end
   def test_sheet1_b6; assert_in_epsilon(10.0, worksheet.sheet1_b6, 0.002); end
   def test_sheet1_b16; assert_in_delta(0.0, (worksheet.sheet1_b16||0), 0.002); end
   def test_sheet1_c16; assert_in_delta(0.0, (worksheet.sheet1_c16||0), 0.002); end
   def test_sheet1_d16; assert_in_delta(0.0, (worksheet.sheet1_d16||0), 0.002); end
   def test_sheet1_e16; assert_in_delta(0.0, (worksheet.sheet1_e16||0), 0.002); end
   def test_sheet1_f16; assert_in_delta(0.0, (worksheet.sheet1_f16||0), 0.002); end
-  def test_sheet1_g16; assert_in_delta(0.0, (worksheet.sheet1_g16||0), 0.002); end
-  def test_sheet1_h16; assert_in_delta(0.0, (worksheet.sheet1_h16||0), 0.002); end
-  def test_sheet1_i16; assert_in_delta(0.0, (worksheet.sheet1_i16||0), 0.002); end
-  def test_sheet1_j16; assert_in_delta(0.0, (worksheet.sheet1_j16||0), 0.002); end
-  def test_sheet1_k16; assert_in_delta(0.0, (worksheet.sheet1_k16||0), 0.002); end
-  def test_sheet1_l16; assert_in_delta(0.0, (worksheet.sheet1_l16||0), 0.002); end
-  def test_sheet1_m16; assert_in_delta(0.0, (worksheet.sheet1_m16||0), 0.002); end
-  def test_sheet1_n16; assert_in_delta(0.0, (worksheet.sheet1_n16||0), 0.002); end
-  def test_sheet1_o16; assert_in_delta(0.0, (worksheet.sheet1_o16||0), 0.002); end
-  def test_sheet1_p16; assert_in_delta(0.0, (worksheet.sheet1_p16||0), 0.002); end
+  def test_sheet1_g16; assert_in_epsilon(100000000.0, worksheet.sheet1_g16, 0.002); end
+  def test_sheet1_h16; assert_in_epsilon(100000000.0, worksheet.sheet1_h16, 0.002); end
+  def test_sheet1_i16; assert_in_epsilon(100000000.0, worksheet.sheet1_i16, 0.002); end
+  def test_sheet1_j16; assert_in_epsilon(100000000.0, worksheet.sheet1_j16, 0.002); end
+  def test_sheet1_k16; assert_in_epsilon(100000000.0, worksheet.sheet1_k16, 0.002); end
+  def test_sheet1_l16; assert_in_epsilon(100000000.0, worksheet.sheet1_l16, 0.002); end
+  def test_sheet1_m16; assert_in_epsilon(100000000.0, worksheet.sheet1_m16, 0.002); end
+  def test_sheet1_n16; assert_in_epsilon(100000000.0, worksheet.sheet1_n16, 0.002); end
+  def test_sheet1_o16; assert_in_epsilon(100000000.0, worksheet.sheet1_o16, 0.002); end
+  def test_sheet1_p16; assert_in_epsilon(100000000.0, worksheet.sheet1_p16, 0.002); end
   def test_sheet1_q16; assert_in_delta(0.0, (worksheet.sheet1_q16||0), 0.002); end
   def test_sheet1_r16; assert_in_delta(0.0, (worksheet.sheet1_r16||0), 0.002); end
   def test_sheet1_s16; assert_in_delta(0.0, (worksheet.sheet1_s16||0), 0.002); end
@@ -410,16 +410,16 @@ class TestExcelspreadsheet < Minitest::Unit::TestCase
   def test_sheet1_d14; assert_in_delta(0.0, (worksheet.sheet1_d14||0), 0.002); end
   def test_sheet1_e14; assert_in_delta(0.0, (worksheet.sheet1_e14||0), 0.002); end
   def test_sheet1_f14; assert_in_delta(0.0, (worksheet.sheet1_f14||0), 0.002); end
-  def test_sheet1_g14; assert_in_epsilon(4383000.0, worksheet.sheet1_g14, 0.002); end
-  def test_sheet1_h14; assert_in_epsilon(4383000.0, worksheet.sheet1_h14, 0.002); end
-  def test_sheet1_i14; assert_in_epsilon(4383000.0, worksheet.sheet1_i14, 0.002); end
-  def test_sheet1_j14; assert_in_epsilon(4383000.0, worksheet.sheet1_j14, 0.002); end
-  def test_sheet1_k14; assert_in_epsilon(4383000.0, worksheet.sheet1_k14, 0.002); end
-  def test_sheet1_l14; assert_in_epsilon(4383000.0, worksheet.sheet1_l14, 0.002); end
-  def test_sheet1_m14; assert_in_epsilon(4383000.0, worksheet.sheet1_m14, 0.002); end
-  def test_sheet1_n14; assert_in_epsilon(4383000.0, worksheet.sheet1_n14, 0.002); end
-  def test_sheet1_o14; assert_in_epsilon(4383000.0, worksheet.sheet1_o14, 0.002); end
-  def test_sheet1_p14; assert_in_epsilon(4383000.0, worksheet.sheet1_p14, 0.002); end
+  def test_sheet1_g14; assert_in_epsilon(8766000.0, worksheet.sheet1_g14, 0.002); end
+  def test_sheet1_h14; assert_in_epsilon(8766000.0, worksheet.sheet1_h14, 0.002); end
+  def test_sheet1_i14; assert_in_epsilon(8766000.0, worksheet.sheet1_i14, 0.002); end
+  def test_sheet1_j14; assert_in_epsilon(8766000.0, worksheet.sheet1_j14, 0.002); end
+  def test_sheet1_k14; assert_in_epsilon(8766000.0, worksheet.sheet1_k14, 0.002); end
+  def test_sheet1_l14; assert_in_epsilon(8766000.0, worksheet.sheet1_l14, 0.002); end
+  def test_sheet1_m14; assert_in_epsilon(8766000.0, worksheet.sheet1_m14, 0.002); end
+  def test_sheet1_n14; assert_in_epsilon(8766000.0, worksheet.sheet1_n14, 0.002); end
+  def test_sheet1_o14; assert_in_epsilon(8766000.0, worksheet.sheet1_o14, 0.002); end
+  def test_sheet1_p14; assert_in_epsilon(8766000.0, worksheet.sheet1_p14, 0.002); end
   def test_sheet1_q14; assert_in_delta(0.0, (worksheet.sheet1_q14||0), 0.002); end
   def test_sheet1_r14; assert_in_delta(0.0, (worksheet.sheet1_r14||0), 0.002); end
   def test_sheet1_s14; assert_in_delta(0.0, (worksheet.sheet1_s14||0), 0.002); end
@@ -540,16 +540,16 @@ class TestExcelspreadsheet < Minitest::Unit::TestCase
   def test_sheet1_d18; assert_in_epsilon(200000000.0, worksheet.sheet1_d18, 0.002); end
   def test_sheet1_e18; assert_in_epsilon(200000000.0, worksheet.sheet1_e18, 0.002); end
   def test_sheet1_f18; assert_in_epsilon(200000000.0, worksheet.sheet1_f18, 0.002); end
-  def test_sheet1_g18; assert_in_epsilon(175320000.0, worksheet.sheet1_g18, 0.002); end
-  def test_sheet1_h18; assert_in_epsilon(175320000.0, worksheet.sheet1_h18, 0.002); end
-  def test_sheet1_i18; assert_in_epsilon(175320000.0, worksheet.sheet1_i18, 0.002); end
-  def test_sheet1_j18; assert_in_epsilon(175320000.0, worksheet.sheet1_j18, 0.002); end
-  def test_sheet1_k18; assert_in_epsilon(175320000.0, worksheet.sheet1_k18, 0.002); end
-  def test_sheet1_l18; assert_in_epsilon(175320000.0, worksheet.sheet1_l18, 0.002); end
-  def test_sheet1_m18; assert_in_epsilon(175320000.0, worksheet.sheet1_m18, 0.002); end
-  def test_sheet1_n18; assert_in_epsilon(175320000.0, worksheet.sheet1_n18, 0.002); end
-  def test_sheet1_o18; assert_in_epsilon(175320000.0, worksheet.sheet1_o18, 0.002); end
-  def test_sheet1_p18; assert_in_epsilon(175320000.0, worksheet.sheet1_p18, 0.002); end
+  def test_sheet1_g18; assert_in_epsilon(450640000.0, worksheet.sheet1_g18, 0.002); end
+  def test_sheet1_h18; assert_in_epsilon(450640000.0, worksheet.sheet1_h18, 0.002); end
+  def test_sheet1_i18; assert_in_epsilon(450640000.0, worksheet.sheet1_i18, 0.002); end
+  def test_sheet1_j18; assert_in_epsilon(450640000.0, worksheet.sheet1_j18, 0.002); end
+  def test_sheet1_k18; assert_in_epsilon(450640000.0, worksheet.sheet1_k18, 0.002); end
+  def test_sheet1_l18; assert_in_epsilon(450640000.0, worksheet.sheet1_l18, 0.002); end
+  def test_sheet1_m18; assert_in_epsilon(450640000.0, worksheet.sheet1_m18, 0.002); end
+  def test_sheet1_n18; assert_in_epsilon(450640000.0, worksheet.sheet1_n18, 0.002); end
+  def test_sheet1_o18; assert_in_epsilon(450640000.0, worksheet.sheet1_o18, 0.002); end
+  def test_sheet1_p18; assert_in_epsilon(450640000.0, worksheet.sheet1_p18, 0.002); end
   def test_sheet1_q18; assert_in_delta(0.0, (worksheet.sheet1_q18||0), 0.002); end
   def test_sheet1_r18; assert_in_delta(0.0, (worksheet.sheet1_r18||0), 0.002); end
   def test_sheet1_s18; assert_in_delta(0.0, (worksheet.sheet1_s18||0), 0.002); end
