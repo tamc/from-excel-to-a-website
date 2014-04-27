@@ -1,0 +1,53 @@
+<!doctype html>
+<script src="/d3.min.js"></script>
+<title>A little levelised model</title>
+<body>
+<form method='get' action='/data'>
+  Capital cost: <input type='range' max='5000' min='0' step='100' value='1000' name='capital_cost'>&pound;<span id='capital_cost'></span>/kW<br>
+  Operating cost: <input type='range' max='5000' min='0' step='100' value='1000' name='operating_cost'>&pound;<span id='operating_cost'></span>/kW/yr<br>
+  Fuel cost: <input type='range' max='100' min='0' step='1' value='40' name='fuel_cost'>&pound;<span id='fuel_cost'></span>/MWh<br>
+  Efficiency: <input type='range' max='1' min='0' step='0.01' value='0.5' name='efficiency'><span id='efficiency'></span><br>
+  Construction time: <input type='range' max='15' min='0' step='1' value='5' name='construction_time'><span id='construction_time'></span> years<br>
+  Operating life: <input type='range' max='100' min='0' step='1' value='25' name='operating_life'><span id='operating_life'></span> years<br>
+  Load factor: <input type='range' max='1' min='0' step='0.01' value='1' name='load_factor'><span id='load_factor'></span><br>
+  Discount rate: <input type='range' max='1' min='0' step='0.01' value='0.1' name='discount_rate'><span id='discount_rate'></span><br>
+  Capacity: <input type='range' max='10' min='0' step='0.1' value='1' name='capacity'><span id='capacity'></span> GW<br>
+  <!-- <input type='submit'> -->
+</form>
+<div id='output'>
+  <span>Levelised cost:</span>
+  &pound;<span id='levelised_cost'></span>/MWh
+</div>
+
+<script>
+  inputs = d3.map();
+  outpus = d3.map();
+
+  d3.selectAll('input')
+    .each(function() { inputs.set(this.name, this.value); })
+    .on('change', valueChanged);
+
+  function valueChanged() {
+    inputs.set(this.name, this.value);
+    d3.json(dataUrl(), answerReceived);
+    d3.event.preventDefault();
+  };
+
+  function dataUrl() {
+    str = '/data?';
+    inputs.forEach(function(name,value) {
+        str += name + '=' + value + '&';
+        });
+    str = str.slice(0, str.length - 1); 
+    return str;
+  }
+
+  function answerReceived(error, data) {
+    outputs = d3.map(data);
+    outputs.forEach(function(name,value) {
+      d3.selectAll('#'+name).html(value);
+    });
+  }
+
+  d3.json(dataUrl(), answerReceived);
+</script>
