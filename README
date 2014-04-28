@@ -1,3 +1,9 @@
+First install the ruby language (ideally ruby 2.1): http://ruby-lang.com
+
+Then, in this folder:
+
     gem install 'excel_to_code'
     excel_to_ruby -rnd spreadsheet.xlsx .
     ruby server.rb
+    
+Then, if set-up in default form, open: http://0.0.0.0:4567
